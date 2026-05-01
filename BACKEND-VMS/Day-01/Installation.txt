@@ -1,0 +1,14 @@
+
+ Set-Up Javascript--
+
+    Firstly you have installed Node.js(run time environment for executing JavaScript)
+    An IDE for Run Code of JavaScript
+    Using cd command to enter in the directory
+    For running code--- node filename.js
+
+
+ node --watch filename.js - for simultaneously running
+
+ We can write Js in browser console --Temporary
+
+ Permanent- GitHub and VS-Code...(Microsoft)

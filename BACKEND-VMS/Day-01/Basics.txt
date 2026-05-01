@@ -1,0 +1,39 @@
+
+JavaScript is a Programming language.
+Client side interpreted language..
+Dynamically typed---
+
+-JavaScript is a lightweight programming language commonly used by web developers to add dynamic interactions to web pages, applications, servers, and even games.
+
+//-It works seamlessly alongside HTML and CSS, complementing CSS in formatting HTML elements while providing user interaction, a capability that CSS alone lacks.
+
+ JAVASCRIPT BEGINNING____(ES6 and  ES7 )
+
+ Some Basics Concepts of JavaScript are :
+-Printing Output..
+-Variables - {Container or Storage Location} 
+-Keywords and Identifiers
+-Data Types
+-Operators
+-Conditional statements
+-Looping
+-Functions,etc
+
+
+//------- for printing output--console.log
+
+console.log("Start JavaScript Language-----");
+console.log("  ");
+console.log("Hello World!!!!")
+
+// Basics of JavaScript- Printing Output
+console.log("Hello from My Side");
+console.log("Hello from My Side");
+console.log("Hello from My Side");
+
+
+
+
+// START SERVER AND CODE RUN DEFAULT node -- watch Filename
+
+console.log("------")
