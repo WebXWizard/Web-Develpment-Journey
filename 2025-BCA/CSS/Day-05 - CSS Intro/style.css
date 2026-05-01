@@ -1,0 +1,51 @@
+/* Color and Background Property */
+h2{
+   color: orange;
+}
+
+h4{
+    color:rgb(76, 227, 6);
+    
+}
+
+p{
+    color: rgb(255, 255, 255);
+    background-color: rgb(44, 41, 41);
+    font-family: impact ;
+}
+
+button{
+    color: gold;
+    background-color: rgb(8, 8, 8);
+    
+}
+
+/* Text Properties */
+h6{
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: wavy red underline;
+    line-height: normal;
+    letter-spacing:3px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Practice Ques - 03 styling */
+h5{
+    font-family: League spartan;
+    color: #ffa511;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration: teal double underline;
+    text-transform: uppercase;
+}

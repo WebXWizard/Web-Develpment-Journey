@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<!-- Tells browser you are using HTML5 -->
+
+<html lang="en">
+  <!-- Root of an HTML Document -->
+
+  <head>
+    <!-- Meta tags... Container For metadata
+     The meta element represents various kinds of metadata that cannot be expressed using the title, base, link, style, and script element
+
+     -> Set of Data about data 
+     -> Tells the web browser what web page about  
+     -> Does not Display On Browser-->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Responsiveness -->
+
+    <!-- Title Of Web Page -->
+    <title>My First Page</title>
+  </head>
+
+  <body>
+    <h1>Admission Form</h1>
+
+    <!-- <p>Lorem ipsum dolor sit .</p> -->
+    <form action="action_page.php" method="GET">
+      <div>
+        <label for="fname">Student Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder="Enter your Name"
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="email">Email Address</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your Email"
+          required
+        />
+      </div>
+
+      <br />
+      <div>
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="pass"
+          name="pass"
+          placeholder="xyz@gmail.com"
+          maxlength="12"
+          required
+        />
+      </div>
+      <br />
+
+      <div>
+        <label for="phone">Phone No</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="+91 "
+          maxlength="10"
+          required
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="bdate">Date of Birth</label>
+        <input type="date" id="bdate" name="b_date" />
+      </div>
+
+      <br />
+      <div>
+        <label for="quantity">Quantity</label>
+        <input
+          type="number"
+          id="quantity"
+          name="quantity"
+          min="0"
+          max="9999999"
+          value="1"
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="title">Tittle</label>
+        <label for="Mr.">Male</label>
+        <input type="radio" id="Mr." name="tittle" value="Mr." />
+
+        <label for="Mrs.">Female</label>
+        <input type="radio" id="Mrs." name="tittle" value="Mrs." />
+
+        <label for="PHD">PHD</label>
+        <input type="radio" id="PHD" name="tittle" value="PHD" />
+      </div>
+
+      <br />
+
+      <div>
+        <label>Address</label>
+        <!-- <input type="text"> -->
+        <textarea row="5" id=""></textarea>
+      </div>
+
+      <br />
+
+      <div>
+        <label>Select Course</label>
+        <select>
+          <option>Full Stack Dev</option>
+          <option>Data Structures</option>
+          <option>Python Data Science Dev</option>
+          <option>AI and ML</option>
+        </select>
+      </div>
+
+      <br />
+      <br />
+      <div>
+        <label>College Name</label>
+        <input type="text" list="College" />
+        <datalist id="College">
+          <option>MIT</option>
+          <option>SRM</option>
+          <option>PICT</option>
+          <option>SPIT</option>
+        </datalist>
+      </div>
+
+      <br />
+      <br />
+
+      <div>
+        <input type="checkbox" />
+        <label>I Accept your Terms and Condition</label>
+      </div>
+
+      <br />
+      <br />
+
+      <div>
+        <details>
+          <summary>Click Here to Read Terms and Condition</summary>
+          <p>Remember Me</p>
+        </details>
+      </div>
+      <br />
+
+      <div>
+        <button>Click Me</button>
+      </div>
+
+      <br />
+
+      <div>
+        <input type="reset" />
+      </div>
+
+      <br />
+
+      <div>
+        <input type="submit" />
+      </div>
+    </form>
+
+    <br />
+    <hr />
+    <br />
+
+    <!-- iframe - embed content from another source into an Html Document 
+     ex. used for Adds , used in any Hacking Techniques   -->
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/rklidcZ-aLU?si=3C3LMCOXeDZb0zfV"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    >
+    </iframe>
+    <br />
+    <hr />
+    <br />
+
+    <!-- Button  -->
+
+    <a href="http://www.Google.com" target="_blank">
+      <button>Go to Google</button>
+    </a>
+    <!-- If You add Functionality , You have to used JavaScript... -->
+
+    <br />
+    <br />
+
+    <button onclick="doSomething()">Click Me</button>
+
+    <p id="test">Hello</p>
+
+    <script>
+      function doSomething() {
+        document.getElementById("test").innerHTML = "GoodBye";
+      }
+    </script>
+    <hr />
+
+    <!-- Audio File : <audio> tag -->
+
+    <audio controls muted loop src="/HTML/English Mashup.mp3">
+      <!-- Only relative -->
+    </audio>
+    <br />
+    <br />
+
+    <!-- Video File Mp4, WebM, and Ogg  -->
+
+    <video
+      controls
+      autoplay
+      muted
+      loop
+      src="/HTML/4k Dark.mp4"
+      width="400"
+    >
+  </video>
+
+    <br />
+    <hr />
+    <br />
+  </body>
+</html>

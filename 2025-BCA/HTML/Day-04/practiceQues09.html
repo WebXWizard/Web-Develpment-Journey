@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Ques-09</title>
+  </head>
+  <body>
+    <form action="/server">
+      <h2>Registration Form</h2>
+      <div>
+        <input type="text" name="fname" id="first" placeholder="First Name" />
+        <input type="text" name="lname" id="second" placeholder="Last Name" />
+      </div>
+      <br />
+      <div>
+        <label for="gender">Please Select your Gender:</label>
+        <select name="Gender" id="gender">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        Do you agree to all terms of service?
+        <input
+          type="checkbox"
+          name="Agree"
+          id="check"
+          value="I Agree"
+          checked
+        />
+        <label for="check">Yes, I Agree</label>
+      </div>
+      <br />
+      <button>Register</button>
+    </form>
+  </body>
+</html>

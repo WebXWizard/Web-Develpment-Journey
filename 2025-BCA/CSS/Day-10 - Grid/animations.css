@@ -1,0 +1,61 @@
+* {
+  font-family: Poppins;
+}
+
+.box {
+  height: 100px;
+  width: 300px;
+  background-color: pink;
+  text-align: center;
+
+
+  /* animation-name: width;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; */
+
+
+  /* Shorthand */
+  animation: width 3s ease-in 0s 2 alternate;
+}
+
+/* Animation Blueprint  */
+@keyframes width{
+    0%{
+        width: 50px;
+        background-color: green;
+
+    
+    }
+    50%{
+        width: 200px;
+        background-color: aqua;
+    }
+    100%{
+        width: 400px;
+        background-color: rgb(74, 35, 124);
+        border-radius: 15px;
+
+    }
+}
+
+
+@keyframes fontAnimation {
+  from {
+    font-size: 20px;
+  }
+  to{
+    font-size:40px;
+  }
+}
+
+@keyframes colorAnimate{
+    from{
+        color: red;
+    }
+    to{
+        color: blue;
+    }
+}

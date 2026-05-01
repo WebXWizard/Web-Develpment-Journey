@@ -1,0 +1,48 @@
+*{
+    font-family: Poppins, sans-serif;
+}
+
+#myId p {
+    color: lightgreen;
+}
+
+/* Id Wins
+
+h1{
+    color: pink;
+}
+
+#greet{
+    color: blue;
+}
+
+.myclass{
+    color: red;
+} */
+
+/* .myPara Wins
+
+div p{
+    background-color: black;
+}
+
+.mypara{
+    background-color: aqua;
+}
+
+p{
+    color: green;
+    
+} */
+
+div.greetDiv .greet {
+    color: orange;
+}
+
+.greetDiv p.greet{
+    color: purple;
+}
+
+.greetDiv .greet{
+    color: hotpink;
+}

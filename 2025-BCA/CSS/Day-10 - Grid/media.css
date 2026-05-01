@@ -1,0 +1,49 @@
+h1{
+    font-family: poppins;
+    border: 2px solid black;
+    background-color: azure;
+}
+
+@media (width:400px){
+    
+    h1{
+        color: white;
+        background-color:red;
+        text-align: center;
+    }
+
+    div{
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+    }
+
+}
+
+@media (min-width:700px) {
+   h1{
+    background-color: greenyellow;
+   }
+    
+}
+@media (max-width:300px) {
+   h1{
+    background-color: pink;
+   }
+}
+
+
+@media (min-width:200px) and (max-width:300px){
+    h1{
+        color: blanchedalmond;
+        background-color: aquamarine;
+        text-align: justify;
+    }
+}
+
+@media(orientation: landscape){
+    h1{
+        background-color: blueviolet;
+        color: brown;
+    }
+}

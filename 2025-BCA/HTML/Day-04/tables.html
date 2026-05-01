@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table in HTML</title>
+  </head>
+  <body>
+    <!-- Creating Tables- Tables are used to represent real life table data  -->
+
+    <table border="black">
+      <caption>
+        Food Menu
+      </caption>
+
+      <!-- Table row -->
+      <tr>
+        <!-- Table Header -->
+        <th>Items</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <!-- Table Data -->
+        <td>Drinks</td>
+        <td>Rs.20</td>
+      </tr>
+      <tr>
+        <td>Samosa</td>
+        <td>Rs.20</td>
+      </tr>
+      <tr>
+        <td>Chips</td>
+        <td>Rs.10</td>
+      </tr>
+    </table>
+    <br />
+    <hr />
+    <br />
+
+    <!-- Semantics in Table  -->
+
+    <!-- <thead> >, <tbody>, <tfoot> -->
+
+    <table border="black">
+      <thead>
+        <tr>
+          <!-- Table Header -->
+          <th>Items</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <!-- Table Body -->
+      <tbody>
+        <tr>
+          <!-- Table Data -->
+          <td>Drinks</td>
+          <td>Rs.20</td>
+        </tr>
+        <tr>
+          <td>Samosa</td>
+          <td>Rs.20</td>
+        </tr>
+        <tr>
+          <td>Chips</td>
+          <td>Rs.10</td>
+        </tr>
+      </tbody>
+      <!-- Table Footer -->
+      <tfoot>
+        <tr>
+          <td>Sum</td>
+          <td>Total</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <h2>Store Hours</h2>
+
+    <table bgcolor="" width="700">
+      <thead>
+        <!-- <caption>Timing Of stores</caption> -->
+        <tr bgcolor="grey" align="center">
+          <!-- Table row -->
+          <th width="100">Sunday</th>
+          <!-- Table Header -->
+          <th width="100">Monday</th>
+          <th width="100">Tuesday</th>
+          <th width="100">Wednesday</th>
+          <th width="100">Thursday</th>
+          <th width="100">Friday</th>
+          <th width="100">Saturday</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr bgcolor="lightgrey" align="center">
+          <th>Closed</th>
+          <!-- Table Data -->
+          <td>9-5</td>
+          <td>9-5</td>
+          <td>9-5</td>
+          <td>9-5</td>
+          <td>9-5</td>
+          <td>Closed</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <hr />
+    <br />
+
+    <!-- Colspan and Rowspan -->
+
+    <table border="black">
+      <caption>
+        Food Menu
+      </caption>
+      <thead>
+        <tr>
+          <th rowspan="2">Items</th>
+          <th colspan="2">Price</th>
+        </tr>
+        <tr>
+          <th>INR</th>
+          <th>USD</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>CocaCola</td>
+          <td>10</td>
+          <td>0.14</td>
+        </tr>
+        <tr>
+          <td>Samosa</td>
+          <td>12</td>
+          <td>0.17</td>
+        </tr>
+        <tr>
+          <td>Chips</td>
+          <td>20</td>
+          <td>0.28</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <hr />
+    <br />
+  </body>
+</html>
